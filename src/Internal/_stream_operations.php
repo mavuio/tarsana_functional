@@ -45,7 +45,7 @@ return F\map(F\apply(F\_f('_stream_operation')), [
 	['startsWith', 'String -> String -> Boolean', F\startsWith()],
 	['endsWith', 'String -> String -> Boolean', F\endsWith()],
 	['test', 'String -> String -> Boolean', F\test()],
-	['match', 'String -> String -> List', F\match()],
+	['match', 'String -> String -> List', F\mavu_match()],
 	['occurences', 'String -> String -> Number', F\occurences()],
 	['chunks', 'String -> String -> String -> List', F\chunks()],
 	['map', 'Function -> List -> List', F\map()],
