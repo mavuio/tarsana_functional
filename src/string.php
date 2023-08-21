@@ -270,7 +270,7 @@ function test() {
  * @param  string $string
  * @return array
  */
-function match() {
+function mavu_match() {
     static $match = false;
     $match = $match ?: curry(function($pattern, $string) {
         $results = [];
